@@ -1,0 +1,13 @@
+name: "Self Hosted Runner"
+on:
+  push:
+    branches: [main]
+
+  workflow_dispatch:
+
+jobs:
+  the-job:
+    runs-on: self-hosted
+    steps:
+      - run: echo "It works!"
+      - uses: actions/checkout@v2
