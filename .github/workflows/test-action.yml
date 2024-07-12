@@ -5,3 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello from the other side 🙌🏼"
+      - run: echo "This is cool"
+      - run: echo "This is not runnin on a ${{runner.os}} server"
+      - run: echo "Branch name is ${{github.ref}}"
+      - run: echo "Repository name is ${{github.repository}}"
