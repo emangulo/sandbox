@@ -1,0 +1,7 @@
+name: test-action
+on: [push]
+jobs:
+  the-test-action:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello from the other side 🙌🏼"
