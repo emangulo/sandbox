@@ -1,4 +1,4 @@
-name: Test action
+name: Test runner
 on: push
 jobs:
   run-test:

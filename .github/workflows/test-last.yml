@@ -1,7 +1,0 @@
-name: The last test
-on: push
-jobs:
-  this-is-the-test:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "This is working"
