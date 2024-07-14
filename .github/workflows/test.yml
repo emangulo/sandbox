@@ -1,4 +1,5 @@
 name: Test runner
+run-name: Run test suite
 on: push
 jobs:
   run-test:
